@@ -74,6 +74,35 @@ section{
     background-repeat:no-repeat;
     background-size: 100% 100%;
 }
+.img_box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img_box .imgs{
+    height: 200px;
+    border-radius: 100%;
+    border: 0px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgs:hover img{
+    background-color: pink;
+    transition-delay: 0.2s;
+}
+
+.imgs img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    transition: all 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .img_box2{
     margin: 3% 3% 3% 0;
 }
